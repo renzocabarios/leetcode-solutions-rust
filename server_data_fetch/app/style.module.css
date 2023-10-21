@@ -1,0 +1,8 @@
+.container {
+  height: 90vh;
+  @apply flex flex-col gap-5;
+}
+
+.item_card {
+  @apply flex justify-between p-5 items-center;
+}
