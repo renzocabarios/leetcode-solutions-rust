@@ -1,0 +1,11 @@
+.table {
+  @apply w-full;
+}
+
+.table thead {
+  @apply bg-slate-600;
+}
+
+.table thead tr th {
+  @apply p-7 text-xl text-white;
+}
