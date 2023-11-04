@@ -1,6 +1,4 @@
 import service from "./service.js";
-import bcrypt from "bcrypt";
-import ENV from "../../../env/index.js";
 import { transaction, generateAccess } from "../../../utils/index.js";
 import { startSession, ClientSession } from "mongoose";
 import users from "../users/service.js";
